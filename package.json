@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "api-umbrella-config": "0.2.4",
-    "api-umbrella-gatekeeper": "file:../api-umbrella-gatekeeper",
+    "api-umbrella-gatekeeper": "fernandeze/api-umbrella-gatekeeper",
     "async": "0.9.0",
     "bunyan": "1.2.1",
     "bunyan-rollbar": "0.1.0",
@@ -62,7 +62,6 @@
     "chai": "2.2.0",
     "compression": "1.2.0",
     "connect-busboy": "0.0.2",
-    "curler": "0.0.5",
     "elasticdump": "0.12.0",
     "express": "4.10.2",
     "factory-lady": "0.1.0",
