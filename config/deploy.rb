@@ -5,8 +5,9 @@ Dotenv.load
 lock "3.3.5"
 
 set :application, "router"
+#set :repo_url, "https://github.com/fernandeze/api-umbrella-router.git"
 set :repo_url, "file:///home/vagrant/projects/odilott/api-gateway/router/.git"
-set :branch, "master"
+#set :branch, "master"
 
 # Default deploy_to directory is /var/www/my_app
 set :deploy_to, "/opt/api-umbrella/embedded/apps/router"
